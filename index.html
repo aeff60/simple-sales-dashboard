@@ -511,6 +511,24 @@
     .bottom-grid2 { grid-template-columns: 1fr; }
   }
   @media (max-width: 680px) {
+    .shell { padding: 0 16px 40px; }
+    .topbar {
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 16px 0;
+    }
+    .topbar-left { flex: 1 1 100%; }
+    .topbar-right {
+      flex: 1 1 100%;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .filter-btn {
+      flex: 1 1 auto;
+      text-align: center;
+      padding: 8px 10px;
+    }
+    .period-badge { display: none; }
     .kpi-grid { grid-template-columns: 1fr 1fr; }
     .bottom-grid { grid-template-columns: 1fr; }
   }
